@@ -1,0 +1,170 @@
+*{
+	box-sizing:border-box;
+}
+
+
+
+.cname{
+	
+	height:150px;
+	background-color:#f70d44;
+	text-align:center;
+	padding-top:40px;
+	font-size:70px;
+	color:black;
+}
+
+.menu{
+	
+	background-color:#EB263F;
+	
+	height:50px;
+	/*margin-top:3px;*/
+	text-align:center;
+	padding-top:12px;
+	font-size:20px;
+	 
+	
+	
+}
+
+/* code for anchor tag used in navbar eg. home ,about us, etc============as this anchor tag is inside menu class*/
+.menu a{
+	text-decoration:none;    /* to clear under line of menu we should target
+	                          here cannot write in menu class*/
+	color:yellow;
+	display:block;	/* for inline to block level  so that cursor easy 
+	                            to access entire row for aged people */
+	
+}
+
+.menu a:hover{
+	color:white;
+	background-color:black;
+  /*   padding:13px 5px;*/
+ /*  margin-top:-11px;*/
+
+	border-radius:5px;
+	
+	
+}
+
+/* code for anchor tag used in connect us button  etc==============as this anchor tag is inside menu class*/
+.banner a{
+	text-decoration:none;    
+	color:black;
+	display:inline-block;	
+	background-color:orange;
+	padding:10px 20px;
+	margin-top:10px;
+	border-radius:5px;
+}
+
+.banner a:hover{
+	background-color:red;
+	color:white;
+	transition:0.7s;
+	
+}
+
+.banner{
+	height:500px;
+	
+	margin-top:5px;
+	/*background-image:url('hospital.jpg');*/
+	background-image:url('../photo/h2.jpg');
+	background-repeat:no repeat;
+	background-size:cover;
+	 
+	background-attachment:fixed;
+	
+	text-align:center;
+	font-size:40px;
+	font-weight:bold;
+	padding-top:200px;
+	color:green;
+
+	
+}
+
+
+
+
+
+	
+
+.section_banner{
+	
+	height:70px;
+	background-color:#FF334C;
+	margin-top:5px;
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:15px;
+	color:black;
+	box-shadow:5px 5px rgb(215,218,210);
+	margin-bottom:10px;
+	
+}
+.ab_content{
+	    
+			font-size:25px;
+	  text-align:justify;
+}
+
+.project h2{
+	text-align:center;
+	
+}
+
+.project p{
+	
+	text-align:justify;
+}
+
+.project img:hover{
+	  width:300px;
+}
+
+.add{
+	text-align:center;
+}
+
+.footer{
+	
+	height:200px;
+	background-color:#f70d44;
+	margin-top:5px;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:15px;
+	color:white;
+	box-shadow:5px 5px rgb(215,218,210);
+	margin-bottom:10px;
+	
+	
+}
+
+.footer img{
+	
+	margin-right:15px;
+}
+
+.btn {
+    background: none;
+    border: 1px solid green;
+    font-size: 15px;
+    padding: 10px 20px;
+    
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1 :hover  {
+    color: black;
+}
